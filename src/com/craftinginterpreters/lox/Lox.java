@@ -1,3 +1,5 @@
+package com.craftinginterpreters.lox;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Lox {
     static boolean hadError = false;
     public static void main(String[] args) throws IOException {
         if (args.length > 1) {
