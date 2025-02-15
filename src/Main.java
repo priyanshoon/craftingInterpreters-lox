@@ -14,7 +14,7 @@ public class Main {
             System.out.println("Usage: jlox [script]");
             System.exit(64);
         } else if (args.length == 1) {
-            runFile(arg[0]);
+            runFile(args[0]);
         } else {
             runPrompt();
         }
@@ -34,6 +34,7 @@ public class Main {
             String line = reader.readLine();
             if (line == null) break;
             run(line);
+            hadError = false;
         }
     }
 
