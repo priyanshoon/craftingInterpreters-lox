@@ -1,0 +1,47 @@
+---- variables ----
+let a = 2;
+let name = "monkey";
+let result = 10 * (20 / 2);
+
+---- arrays ----
+let myArray = [1, 2, 3, 4, 5];
+
+--- accessing the value of array ---
+let myArray[0]; // ==> 1
+
+---- dictionaries ----
+let priyanshu = {"name": "priyanshu", "age": 21};
+
+--- accessing the value of dictionaries ---
+priyanshu["age"] // ==> 21
+
+
+---- function using let statment ----
+let add = fn(a, b) { return a + b; };
+
+--- calling function ---
+add(1, 2);
+
+-- example --
+let fibonacci = fn(x) {
+    if (x == 0) {
+        0
+    } else {
+        if (x == 1) {
+            1
+        } else {
+            fibonacci(x - 1) + fibonacci(x - 2);
+        }
+    }
+};
+
+--- higher order function ---
+let twice = fn(f, x) {
+    return f(f(x));
+};
+
+let addTwo = fn(x) {
+    return x + 2;
+};
+
+twice(addTwo, 2); // => 6
