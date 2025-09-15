@@ -3,8 +3,10 @@
 "learning compiler development"
 
 ## Learning
-- [ ] Grammer for Language
+- [X] Grammer for Language
 - [ ] Scanning (Lexical Programming)
+    - [ ] Tokens
+    - [ ] Lexer
 - [ ] Parsing 
 - [ ] Code Generation 
 - [ ] Implement Hash Map
