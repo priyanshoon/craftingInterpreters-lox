@@ -1,5 +1,7 @@
 #pragma once
 
+#include<stdlib.h>
+
 typedef enum {
     TOKEN_ILLEGAL,
     TOKEN_EOF,
@@ -22,3 +24,5 @@ typedef struct {
     const char *literal;
 } Token;
 
+
+Token make_tokens(TokenType type, const char* literal, int line, int column);

@@ -4,4 +4,12 @@
 void setUp() {}
 void tearDown() {}
 
-TokenType token;
+void test_lexer() {}
+
+
+int main() {
+    UNITY_BEGIN();
+    return UNITY_END();
+}
+
+
