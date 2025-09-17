@@ -1,5 +1,5 @@
 #include "unity.h"
-#include "../tokens/token.h"
+#include "../src/tokens/token.h"
 
 void setUp() {}
 void tearDown() {}

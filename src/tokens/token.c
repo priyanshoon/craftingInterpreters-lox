@@ -5,6 +5,8 @@ Token make_tokens(TokenType type, const char* literal, int line, int column) {
     Token tok;
     tok.type = type;
     tok.literal = strdup(literal);
+    tok.line = line;
+    tok.column = column;
     return tok;
 }
 

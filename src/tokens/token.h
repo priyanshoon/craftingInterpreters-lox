@@ -22,6 +22,8 @@ typedef enum {
 typedef struct {
     TokenType type;
     const char *literal;
+    size_t line;
+    size_t column;
 } Token;
 
 

@@ -1,10 +1,13 @@
 #include "unity.h"
-#include "../tokens/token.h"
+#include "../src/tokens/token.h"
 
 void setUp() {}
 void tearDown() {}
 
-void test_lexer() {}
+// TODO: write a test for lexer
+void test_lexer() {
+    char* string;
+}
 
 
 int main() {
