@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "lexer/lexer.h"
 
 int main(int argc, char *argv[]) {
     if (argc <= 1) {
@@ -15,7 +14,8 @@ int main(int argc, char *argv[]) {
     file_ptr = fopen(argv[1], "r");
 
     if (file_ptr == NULL) {
-        printf("Error occurred while creating a file!\n");
+        printf("something wrong happend! please check if file exist or not!");
+        exit(1);
     } else {
         printf("the file is there\n");
     }

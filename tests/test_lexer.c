@@ -9,7 +9,6 @@ void test_lexer() {
     char* string;
 }
 
-
 int main() {
     UNITY_BEGIN();
     return UNITY_END();
