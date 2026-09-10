@@ -123,3 +123,5 @@ func TestNextToken(t *testing.T) {
 		}
 	}
 }
+
+// I only wrote 1 test case
